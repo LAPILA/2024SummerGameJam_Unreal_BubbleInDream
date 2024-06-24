@@ -14,7 +14,7 @@ public:
 
 	// Function to add memory points
 	void AddMemoryPoint();
-
+	void SubtractMemoryPoint();
 	// Get the current memory points
 	UFUNCTION(BlueprintPure, Category = "Score")
 	int32 GetMemoryPoints() const;
