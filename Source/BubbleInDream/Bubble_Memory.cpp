@@ -60,12 +60,3 @@ void ABubble_Memory::AddScore()
 		GameMode->AddMemoryPoint();
 	}
 }
-
-void ABubble_Memory::SubtractScore()
-{
-	ABubbleDreamGameMode* GameMode = Cast<ABubbleDreamGameMode>(UGameplayStatics::GetGameMode(GetWorld()));
-	if (GameMode)
-	{
-		GameMode->SubtractMemoryPoint();
-	}
-}
